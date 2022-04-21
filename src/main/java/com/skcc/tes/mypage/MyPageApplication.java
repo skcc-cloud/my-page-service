@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 
 @SpringBootApplication
-public class PetstoreApplication {
+public class MyPageApplication {
 
 	static ApplicationContext applicationContext;
 	public static ApplicationContext getApplicationContext(){
@@ -13,7 +13,7 @@ public class PetstoreApplication {
 	}
 
 	public static void main(String[] args) {
-		applicationContext = SpringApplication.run(PetstoreApplication.class, args);
+		applicationContext = SpringApplication.run(MyPageApplication.class, args);
 	}
 
 }
