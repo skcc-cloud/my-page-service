@@ -9,6 +9,7 @@ import org.springframework.stereotype.Service;
 public class PolicyHandler{
     @StreamListener(KafkaProcessor.INPUT)
     public void whatever(@Payload String eventString){
+        // 카프카 이슈 해결
         System.out.println("eventString = " + eventString);
     }
 }
